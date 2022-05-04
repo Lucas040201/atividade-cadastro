@@ -1,5 +1,7 @@
 <h3 align="center">Ac 02</h3>
 
+> Lucas Mendes e Lucas Avelino
+
 ## 📝 Sumário
 
 - [Como Rodar](#como)
@@ -9,7 +11,7 @@
 
 <p> Para rodar este projeto apenas digite no terminal docker-compose up.</p>
 
-## 🔧 Começando <a name = "banco"></a>
+## 🔧 Banco de dados <a name = "banco"></a>
 
 <p>O docker ira subir o banco de dados, portanto, é necessário apenas criar o banco de dados com os seguintes comandos:</p>
 
