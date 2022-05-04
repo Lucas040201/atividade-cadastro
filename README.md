@@ -15,20 +15,14 @@
 
 <p>Para acessar o container de mysql:</p>
 
-'''
-
     docker exec -it ac02_db_1  /bin/bash
 
-'''
 <p>Após isso, logue no mysql e digite a senha assim que solicitar.</p>
-'''
 
     mysql -uroot -p
-    
-'''
+
 
 <p>Para criar o banco de dados utilize os seguintes comandos. Apenas copie e cole.</p>
-'''
 
     CREATE DATABASE atividade;
 
@@ -42,4 +36,4 @@
 
         PRIMARY KEY (id_usuario)
     );
-'''
+
