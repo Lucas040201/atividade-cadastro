@@ -1,0 +1,25 @@
+version: '3.0'
+
+services:
+  web:
+    build: .
+    working_dir: /wwww
+    networks:
+      - server
+    volumes:
+      - ./www:/www
+    ports:
+      - "5002:5002"
+
+  db:
+    image: mysql:5.7
+    environment:
+        MYSQL_ROOT_PASSWORD: mudar123
+    ports:
+      - "3309:3309"
+    networks:
+      - server
+
+networks:
+  server:
+    driver: bridge
